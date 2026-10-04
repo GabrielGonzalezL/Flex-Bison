@@ -1,0 +1,39 @@
+# ==============================================================================
+# .gitignore - Simulador Máquina de Turing (ANTLR + Python)
+# ==============================================================================
+
+# Bytecode y cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Archivos generados por ANTLR y el Lexer/Parser
+./ANTLR/*.tokens
+./ANTLR/*.interp
+./ANTLR/*.Lexer.py
+./ANTLR/*.Parser.py
+./ANTLR/*.Listener.py
+./ANTLR/*.Visitor.py
+
+# Binarios / JAR de ANTLR
+./ANTLR/antlr-4.13.1-complete.jar
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
